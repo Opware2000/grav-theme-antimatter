@@ -18,8 +18,15 @@
 </div>
 {% endif %}
 <div class="sidebar-content">
-	<h4>{{ 'SIDEBAR.SOME_TEXT_WIDGET.HEADLINE'|t }}</h4>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+	<h4>Fédération</h4>
+	<p style="text-align: center;">{% set image = page.find('/images').media['logo-ffepgv.png'] %}
+	<img src="{{ image.url }}" width="80%" height="auto" alt="FFEPGV"/>
+	</p>
+	<p style="text-align: center;">Affilié à la<strong><a href="http://www.sport-sante.fr/ffepgv" target="_blank" title="Fédération Française d'Education Physique et de Gymnastique Volontaire"> Fédération Française d'Education Physique et de Gymnastique Volontaire</a></strong><br>depuis le 25 oct. 1971 sous le numéro 042004</p>
+	<p style="text-align: center;">{% set image = page.find('/images').media['ddcs-titre.png'] %}
+	<img src="{{ image.url }}" width="80%" height="auto" alt="Jeunesse et sport"/>
+	</p>
+	<p style="text-align: center;">Agréée <strong>Direction Départementale de la Jeunesse et des Sports</strong> 42.91.19 depuis le 27 déc. 1991</p>
 </div>
 {% if config.plugins.taxonomylist.enabled %}
 <div class="sidebar-content">
