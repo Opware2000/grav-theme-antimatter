@@ -3,7 +3,11 @@
 	{% set collection = page.collection() %}
 
 	{% block content %}
+		{% if page.media.images %}
 		{% set blog_image = page.media.images|first %}
+		{% else %}
+		{% set blog_image = page.find('/images').media['header.jpg'] %}
+		{% endif %}
 
 		{% if blog_image %}
 		<div class="flush-top blog-header blog-header-image" style="background-image: url({{ blog_image.url }});">

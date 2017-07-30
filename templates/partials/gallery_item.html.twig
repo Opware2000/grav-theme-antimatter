@@ -56,7 +56,7 @@
     {% elseif truncate and page.summary != page.content %}
         <div class="p-summary e-content">
             {{ page.summary }}
-            <p><a href="{{ page.url }}" class="button">{{ 'BLOG.ITEM.CONTINUE_READING'|t }}</a></p>
+            <p style="text-align:center"><a href="{{ page.url }}" class="button center">{{ 'BLOG.ITEM.CONTINUE_READING'|t }}</a></p>
         </div>
     {% elseif truncate %}
         <div class="p-summary e-content">
