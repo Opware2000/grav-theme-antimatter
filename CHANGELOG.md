@@ -1,12 +1,3 @@
-# v2.x.x
-## 0x/xx/2017
-
-1. [](#improved)
-    * Added polish and brazilian portuguese translations
-    * Allow overriding the slidebar by moving it to its own `sidebar_navigation` block [#110](https://github.com/getgrav/grav-theme-antimatter/pull/110)
-1. [](#bugfix)
-    * Fix showcase template overlapping when not at top [#99](https://github.com/getgrav/grav-theme-antimatter/pull/99)
-
 # v2.1.1
 ## 02/26/2017
 

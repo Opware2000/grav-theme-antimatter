@@ -25,9 +25,9 @@ body {
   -moz-osx-font-smoothing: grayscale; }
 
 a {
-  color: #00b438; }
+  color: #1BB3E9; }
   a:hover {
-    color: #004e18; }
+    color: #0e6e90; }
 
 b, strong, label, th {
   font-weight: 600; }
@@ -89,11 +89,11 @@ b, strong, label, th {
     #header.scrolled #logo a, #header.scrolled #navbar span {
       color: #444 !important; }
     #header.scrolled #navbar a {
-      color: #00b438 !important; }
+      color: #1BB3E9 !important; }
       #header.scrolled #navbar a:hover {
-        color: #004e18 !important; }
+        color: #0e6e90 !important; }
     #header.scrolled #navbar a:before, #header.scrolled #navbar a:after {
-      background-color: #00b438 !important; }
+      background-color: #1BB3E9 !important; }
     #header.scrolled .navigation {
       margin-top: 0.5rem !important; }
   #header > .grid, #header #logo, #header #navbar {
@@ -158,7 +158,7 @@ b, strong, label, th {
               height: 1px;
               bottom: 0;
               left: 0;
-              background-color: #00b438;
+              background-color: #1BB3E9;
               visibility: hidden;
               -webkit-transform: scaleX(0);
               -moz-transform: scaleX(0);
@@ -207,9 +207,9 @@ b, strong, label, th {
             /* Active Dropdown nav item */ }
             #header #navbar ul.navigation li ul li.active > a {
               background-color: #ececec;
-              color: #00b438; }
+              color: #1BB3E9; }
             #header #navbar ul.navigation li ul li:hover > a {
-              background-color: #00b438;
+              background-color: #1BB3E9;
               color: #fff; }
             #header #navbar ul.navigation li ul li a {
               display: block;
@@ -251,7 +251,7 @@ b, strong, label, th {
   background-color: rgba(255, 255, 255, 0);
   box-shadow: none; }
   .header-image #header .navigation .has-children:hover a {
-    color: #00b438; }
+    color: #1BB3E9; }
   .header-image #header #logo h3, .header-image #header #logo a {
     color: #FFFFFF; }
   .header-image #header a, .header-image #header .menu-btn {
@@ -450,12 +450,12 @@ hr {
   padding: 25px;
   float: left;
   clear: both;
-  background: #00b438;
+  background: #1BB3E9;
   color: #fff; }
 
 .label {
   vertical-align: middle;
-  background: #00b438;
+  background: #1BB3E9;
   border-radius: 100%;
   color: #fff;
   height: 1rem;
@@ -477,8 +477,8 @@ textarea, input[type="email"], input[type="number"], input[type="password"], inp
   textarea:hover, input[type="email"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="url"]:hover, input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="month"]:hover, input[type="time"]:hover, input[type="week"]:hover, select[multiple=multiple]:hover {
     border-color: #c4c4c4; }
   textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="url"]:focus, input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, select[multiple=multiple]:focus {
-    border-color: #00b438;
-    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(0, 155, 48, 0.7); }
+    border-color: #1BB3E9;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(21, 163, 214, 0.7); }
 
 .form-field .required {
   color: #F3443F;
@@ -507,14 +507,14 @@ td {
 
 .button {
   background: #fff;
-  color: #00b438;
-  border: 1px solid #00b438;
+  color: #1BB3E9;
+  border: 1px solid #1BB3E9;
   border-radius: 3px; }
   .button:hover {
-    background: #00b438;
+    background: #1BB3E9;
     color: #fff; }
   .button:active {
-    box-shadow: 0 1px 0 #007725; }
+    box-shadow: 0 1px 0 #118ab5; }
 
 .button-secondary {
   background: #fff;
@@ -557,7 +557,7 @@ td {
 
 .bullet-icon {
   float: left;
-  background: #00b438;
+  background: #1BB3E9;
   padding: 0.875rem;
   width: 3.5rem;
   height: 3.5rem;
@@ -567,13 +567,13 @@ td {
   text-align: center; }
 
 .bullet-icon-1 {
-  background: #00b438; }
+  background: #1BB3E9; }
 
 .bullet-icon-2 {
-  background: #04b400; }
+  background: #1be9da; }
 
 .bullet-icon-3 {
-  background: #b41a00; }
+  background: #d5e91b; }
 
 .bullet-content {
   margin-left: 4.55rem; }
@@ -629,15 +629,9 @@ td {
     background-size: cover;
     background-position: center; }
     .blog-header.blog-header-image h1, .blog-header.blog-header-image h2 {
-      color: #FFFFFF;
-      text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1); }
-    .blog-header.blog-header-image h1 {
-      text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15); }
-    .blog-header.blog-header-image h2 {
-      margin-top: 1rem; }
+      color: #FFFFFF; }
   .blog-header h1 {
     font-size: 4rem;
-    line-height: 3.5rem;
     margin-top: 0; }
     @media only all and (min-width: 48em) and (max-width: 59.938em) {
       .blog-header h1 {
@@ -662,7 +656,7 @@ td {
       .list-item .list-blog-header h4 a {
         color: #444; }
         .list-item .list-blog-header h4 a:hover {
-          color: #00b438; }
+          color: #1BB3E9; }
     .list-item .list-blog-header img {
       display: block;
       margin-top: 1rem;
@@ -687,7 +681,7 @@ td {
 .tags a {
   display: inline-block;
   font-size: 0.8rem;
-  border: 1px solid #00b438;
+  border: 1px solid #1BB3E9;
   border-radius: 3px;
   padding: 0.1rem 0.4rem;
   margin-bottom: 0.2rem;
@@ -870,7 +864,7 @@ ul.pagination {
         width: 100%; } }
     .modular .features .feature i.fa {
       font-size: 2rem;
-      color: #00b438; }
+      color: #1BB3E9; }
     .modular .features .feature h4 {
       margin: 0;
       font-size: 1.1rem; }
