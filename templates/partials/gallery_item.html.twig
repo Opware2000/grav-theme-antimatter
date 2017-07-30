@@ -56,7 +56,7 @@
     {% elseif truncate and page.summary != page.content %}
         <div class="p-summary e-content">
             {{ page.summary }}
-            <p><a href="{{ page.url }}">{{ 'BLOG.ITEM.CONTINUE_READING'|t }}</a></p>
+            <p><a href="{{ page.url }}" class="button">{{ 'BLOG.ITEM.CONTINUE_READING'|t }}</a></p>
         </div>
     {% elseif truncate %}
         <div class="p-summary e-content">
@@ -64,7 +64,7 @@
 			<div class="modular-row gallery-container {{ page.header.class }}">
 				{{ unite_gallery(page.media.images) }}
 			</div>
-            <p><a href="{{ page.url }}">{{ 'BLOG.ITEM.CONTINUE_READING'|t }}</a></p>
+            
         </div>
     {% else %}
         <div class="e-content">
