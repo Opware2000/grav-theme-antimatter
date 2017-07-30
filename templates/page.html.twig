@@ -3,8 +3,12 @@
 	{% set collection = page.collection() %}
 
 	{% block content %}
+		{% if page.media.images %}
 		{% set blog_image = page.media.images|first %}
-
+		{% else %}
+		{% set blog_image = page.find('/images').media['header.jpg'] %}
+		{% endif %}
+		
 		{% if blog_image %}
 		<div class="flush-top blog-header blog-header-image" style="background-image: url({{ blog_image.url }});">
 		{% else %}
@@ -20,7 +24,7 @@
 		<div class="content-wrapper blog-content-list grid pure-g">
 			<div id="listing" class="block pure-u-2-3 h-feed">
 				{% for child in collection %}
-			        {% include 'partials/blog_item.html.twig' with {'blog':page, 'page':child, 'truncate':true} %}
+			        {% include 'partials/blog_item.html.twig' with {'blog':page, 'page':child, 'truncate':false} %}
 			    {% endfor %}
 
                 {% if config.plugins.pagination.enabled and collection.params.pagination %}
