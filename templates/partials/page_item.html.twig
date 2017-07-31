@@ -9,7 +9,7 @@
         <span class="list-blog-date">
             <time class="dt-published" datetime="{{ page.date|date("c") }}">
                 <span>{{ page.date|localizeddate('long', 'none', 'fr', 'Europe/Paris', 'd') }}</span>
-                <em>{{ page.date|localizeddate('long', 'none', 'fr', 'Europe/Paris', 'MMM')  }}</em>
+                <em>{{ page.date|localizeddate('long', 'none', 'fr', 'Europe/Paris', 'MMM YY')  }}</em>
             </time>
         </span>
         {% if page.header.link %}
