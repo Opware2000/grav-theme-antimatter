@@ -12,6 +12,9 @@ keywords: antimatter, theme, core, modern, fast, responsive, html5, css3
 bugs: https://github.com/getgrav/grav-theme-antimatter/issues
 license: MIT
 
+dependencies:
+  - { name: grav, version: '>=1.5.10' }
+
 form:
   validation: loose
   fields:
