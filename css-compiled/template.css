@@ -31,10 +31,10 @@ body {
 }
 
 a {
-  color: #00b438;
+  color: #019931;
 }
 a:hover {
-  color: #004e18;
+  color: #003411;
 }
 
 b, strong, th, label {
@@ -113,13 +113,13 @@ b, strong, th, label {
   color: #444 !important;
 }
 #header.scrolled #navbar a {
-  color: #00b438 !important;
+  color: #019931 !important;
 }
 #header.scrolled #navbar a:hover {
-  color: #004e18 !important;
+  color: #003411 !important;
 }
 #header.scrolled #navbar a:before, #header.scrolled #navbar a:after {
-  background-color: #00b438 !important;
+  background-color: #019931 !important;
 }
 #header.scrolled .navigation {
   margin-top: 0.5rem !important;
@@ -200,7 +200,7 @@ b, strong, th, label {
   height: 1px;
   bottom: 0;
   left: 0;
-  background-color: #00b438;
+  background-color: #019931;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   -moz-transform: scaleX(0);
@@ -255,10 +255,10 @@ b, strong, th, label {
 }
 #header #navbar ul.navigation li ul li.active > a {
   background-color: #ececec;
-  color: #00b438;
+  color: #019931;
 }
 #header #navbar ul.navigation li ul li:hover > a {
-  background-color: #00b438;
+  background-color: #019931;
   color: #fff;
 }
 #header #navbar ul.navigation li ul li a {
@@ -316,7 +316,7 @@ b, strong, th, label {
   box-shadow: none;
 }
 .header-image #header .navigation .has-children:hover a {
-  color: #00b438;
+  color: #019931;
 }
 .header-image #header #logo h3, .header-image #header #logo a {
   color: #FFFFFF;
@@ -577,13 +577,13 @@ hr {
   padding: 25px;
   float: left;
   clear: both;
-  background: #00b438;
+  background: #019931;
   color: #fff;
 }
 
 .label {
   vertical-align: middle;
-  background: #00b438;
+  background: #019931;
   border-radius: 100%;
   color: #fff;
   height: 1rem;
@@ -609,8 +609,8 @@ textarea:hover, input[type=email]:hover, input[type=number]:hover, input[type=pa
   border-color: #c4c4c4;
 }
 textarea:focus, input[type=email]:focus, input[type=number]:focus, input[type=password]:focus, input[type=search]:focus, input[type=tel]:focus, input[type=text]:focus, input[type=url]:focus, input[type=color]:focus, input[type=date]:focus, input[type=datetime]:focus, input[type=datetime-local]:focus, input[type=month]:focus, input[type=time]:focus, input[type=week]:focus, select[multiple=multiple]:focus {
-  border-color: #00b438;
-  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(0, 155, 48, 0.7);
+  border-color: #019931;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(1, 128, 41, 0.7);
 }
 
 .form-field .required {
@@ -646,16 +646,16 @@ td {
 
 .button {
   background: #fff;
-  color: #00b438;
-  border: 1px solid #00b438;
+  color: #019931;
+  border: 1px solid #019931;
   border-radius: 3px;
 }
 .button:hover {
-  background: #00b438;
+  background: #019931;
   color: #fff;
 }
 .button:active {
-  box-shadow: 0 1px 0 #007725;
+  box-shadow: 0 1px 0 #015c1e;
 }
 
 .button-secondary {
@@ -713,7 +713,7 @@ td {
 
 .bullet-icon {
   float: left;
-  background: #00b438;
+  background: #019931;
   padding: 0.875rem;
   width: 3.5rem;
   height: 3.5rem;
@@ -724,15 +724,15 @@ td {
 }
 
 .bullet-icon-1 {
-  background: #00b438;
+  background: #019931;
 }
 
 .bullet-icon-2 {
-  background: #04b400;
+  background: #049901;
 }
 
 .bullet-icon-3 {
-  background: #b41a00;
+  background: #991801;
 }
 
 .bullet-content {
@@ -855,7 +855,7 @@ td {
   color: #444;
 }
 .list-item .list-blog-header h4 a:hover {
-  color: #00b438;
+  color: #019931;
 }
 .list-item .list-blog-header img {
   display: block;
@@ -886,7 +886,7 @@ td {
 .tags a {
   display: inline-block;
   font-size: 0.8rem;
-  border: 1px solid #00b438;
+  border: 1px solid #019931;
   border-radius: 3px;
   padding: 0.1rem 0.4rem;
   margin-bottom: 0.2rem;
@@ -1140,7 +1140,7 @@ ul.pagination {
 }
 .modular .features .feature i.fa {
   font-size: 2rem;
-  color: #00b438;
+  color: #019931;
 }
 .modular .features .feature h4 {
   margin: 0;
