@@ -13,3 +13,19 @@
 #body > script:first-child + .grav-lightslider {
   margin-top: -3rem;
 }
+
+#header {
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(26,58,26,1) 90%);
+    #navbar {
+        ul {
+			&.navigation {			
+				li {
+					a {
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+}
